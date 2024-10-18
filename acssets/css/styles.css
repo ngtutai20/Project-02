@@ -330,6 +330,7 @@ a {
 }
 
 .coureses .card .thong-tin {
+    margin-top: 16px;
     width: 326px;
     height: 150px;
     margin-left: auto;
