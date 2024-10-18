@@ -25,7 +25,6 @@ a {
 }
 
 .btn {
-    max-height: 50px;
     padding: 11px 35px;
     border-radius: 24.5px;
     background: #171100;
@@ -357,6 +356,7 @@ a {
     line-height: 1.66; /* 166.667% */
 }
 .coureses .card .thong-tin .course-desc {
+    margin-top: 6px;
     width: 326px;
     color: #5F5B53;
     font-family: Poppins;
@@ -381,7 +381,14 @@ a {
 }
 
 .coureses .card .thong-tin .buy .action-buy {
+    padding: 12px 24px;
     text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.86; /* 185.714% */
 }
 
 .coureses .card .thong-tin .buy .action-buy:hover{
@@ -503,6 +510,7 @@ a {
 }
 
 .features .noi-dung .btn {
+    padding: 11px 37px;
     display: inline-block;
     margin-top: 32px;
     text-decoration: none;
@@ -552,9 +560,16 @@ a {
 }
 
 .cta .word .btn {
+    padding: 12px 31px;
     display: inline-block;
     margin-top: 32px;
     text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
 }
 
 .cta .word .btn:hover {
@@ -664,9 +679,16 @@ a {
 }
 
 .blog .list .card .btn {
+    padding: 12px 21px;
     margin-top: 12px;
     padding: 12px 21px;
     display: inline-block;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.86; /* 185.714% */
 }
 
 .blog .list .card .btn:hover {
