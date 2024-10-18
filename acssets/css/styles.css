@@ -764,6 +764,7 @@ a {
 }
 
 .footer .about .sub-title {
+    display: block;
     color: #BFBCB2;
     margin-bottom: 12px;
     font-family: Poppins;
