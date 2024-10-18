@@ -21,8 +21,8 @@ body {
 }
 
 .btn {
-    min-height: 50px;
-    padding: 0 41px;
+    max-height: 50px;
+    padding: 11px 35px;
     border-radius: 24.5px;
     background: #171100;
     font-family: Poppins;
@@ -250,7 +250,268 @@ body {
     margin: 14px 0;
 }
 
-/* =====main==== */
+
+/* =====courses===== */
+
+.coureses {
+    margin-top: 140px;
+    padding: 60px 0;
+}
+
+.coureses .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coureses .title {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.coureses .desc {
+    width: 458px;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.coureses .action {
+    display: flex;
+    gap: 20px;
+}
+
+.coureses .action .luot-trang{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    width: 39px;
+    height: 39px;
+    border: 1px solid #FFB900;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: #FFB900;
+}
+
+.coureses .action .luot-trang:hover {
+    background: #FFB900;
+    color: #FFF;
+}
+
+.coureses .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coureses .card {
+    margin-top: 55px;
+    width: 370px;
+    height: 466px;
+    border-radius: 12px;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.coureses .card .anh-khoa-hoc {
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+}
+
+.coureses .card .thong-tin {
+    width: 326px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coureses .card .thong-tin .name-rank {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coureses .card .thong-tin .rank {
+    display: flex;
+    gap: 6px;
+}
+
+.coureses .card .name-course {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66; /* 166.667% */
+}
+.coureses .card .thong-tin .course-desc {
+    width: 326px;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+
+.coureses .card .thong-tin .buy {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coureses .card .thong-tin .buy .price {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66; /* 166.667% */
+}
+
+.coureses .card .thong-tin .buy .action-buy {
+    text-decoration: none;
+}
+
+.coureses .card .thong-tin .buy .action-buy:hover{
+    background: #FFB900;
+}
+
+/* =========feed-back======== */
+
+.feed-back {
+    margin-top: 140px;
+    height: 380px;
+     background: #2E2100;
+     padding: 96px 0;
+}
+
+.feed-back .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed-back .person .person-img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feed-back .content .person .name {
+    margin-top: 18px;
+    color: #F7F7F7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41; /* 141.667% */
+}
+
+.feed-back .content .person .position {
+    margin-top: 4px;
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+.feed-back .person .icon {
+    margin-top: 28px;
+    display: flex;
+    gap: 6px;
+}
+
+.feed-back .person .icon .dau-tron {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+}
+
+.feed-back .person .icon .dau-tron:nth-child(2){
+    background: #FFB900;
+}
+
+.feed-back .noi-dung .dau-ngoac {
+    width: 30px;
+    height: 28px;
+    object-fit: cover;
+}
+
+.feed-back .noi-dung .text {
+    width: 740px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54;
+}
+
+.features .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    height: 438px;
+}
+
+
+.features .fea-image .image {
+    width: 270px;
+    height: 405px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.features .fea-image .image:first-child {
+    margin-right: 30px;
+    position: relative;
+    top: 33px;
+}
+
+.features .noi-dung {
+    width: 470px;
+}
+
+.features .noi-dung .sub-title {
+    margin-top: 58px;
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.features .noi-dung .desc ,.features .noi-dung .year  {
+    margin-top: 16px;
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.features .noi-dung .btn {
+    display: inline-block;
+    margin-top: 32px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+
+.features .noi-dung .btn:hover {
+    background-color: #FFB900;
+}
+
+
 
 main {
     width: 100vw;
