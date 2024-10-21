@@ -155,40 +155,62 @@ a {
     align-items: center;
 }
 
-.hero .noi-dung .action .see a {
-    text-decoration: none;
+.hero .action .see {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 64px;
+    border-radius: 32px;
+    background: #FFB900;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66; /* 166.667% */
+}
+
+.hero .action .watch {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 28px;
+}
+
+.hero .action .play-watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    border-radius: 999px;
+    background: #FFF;
+}
+
+.hero .action .play-watch .tam-giac{
+    width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 18px solid #FFB900;
+  border-bottom: 10px solid transparent;
+    
+}
+
+
+.hero .action .watch a {
     color: #171100;
     font-family: Poppins;
     font-size: 1.8rem;
     font-weight: 600;
-    line-height: 1.67; /* 166.667% */
-    padding: 17px 35px;
-    }
+    line-height: 1.66; /* 166.667% */
+}
 
-    .hero .noi-dung .action .see a:first-child{
-        margin-right: 32px;
-        background: #FFB900;
-        border-radius: 32px;
-        color: #FFF;
-    }
-
-    .hero .noi-dung .action .see:last-of-type a {
-        padding-left: 0;
-    }
-
-    .hero .noi-dung .action .see .watch {
-        width: 70px;
-        height: 70px;
-        object-fit: cover;
-        position: relative;
-        top: 3px;
-    }
-    .hero .noi-dung .stats {
+.hero .noi-dung .stats {
         position: relative;
         margin-top: 86px;
         display: flex;
         align-items: baseline;
-    }
+}
 
     .hero .noi-dung .stats .stats-data {
         color: #171100;
